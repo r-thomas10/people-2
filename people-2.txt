@@ -1,0 +1,7 @@
+db.people.insertOne({first_name: 'Rachel'}, {last_name: 'Name'}, {state: 'Michigan'}, {gender: 'female'})
+
+
+
+
+
+db.people.findOneAndDelete({first_name: 'Wanda'}, {last_name: 'Bowman'})
